@@ -14,18 +14,30 @@ p{
 
 .first-portion{
     display: flex;
-    margin: 30px 50px;
+    margin: 40px 50px;
     height: 600px;
 }
 
+.third-portion{
+    display: flex;
+    margin: 250px 50px;
+    height: 600px;
+}
 
 .second-portion{
-    margin: 30px 20px;
+    margin: 40px 50px;
     height: 600px;
 }
 
 .width-half{
     width: 40%;
+    padding-left: 50px;
+    padding-right: 50px;
+    float: left;
+}
+
+.width-one-third{
+    width: 30%;
     padding-left: 50px;
     padding-right: 50px;
     float: left;
@@ -42,6 +54,7 @@ p{
     height: 500px;
     width: 30%;
     margin-right: 20px;
+    margin-bottom: 30px;
     padding:10px
 }
 
@@ -99,6 +112,16 @@ p{
     border-radius: 10px;
 }
 
+#documentation{
+    height: 60px;
+    width: 400px;
+    background-color:rgb(214, 69, 32);
+    color: white;
+    font-size: 20px;
+    font-weight: 10px;
+    border-radius: 10px;
+}
+
 #year{
     color:rgba(114, 114, 4, 0.918);
 }
@@ -107,4 +130,9 @@ p{
     text-align: center;
     font-size: 50px;
     font-weight: 30px;
+}
+
+.third-heading{
+    font-size: 40px;
+    font-weight: 25px;
 }
