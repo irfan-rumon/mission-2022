@@ -46,15 +46,19 @@ footer h1{
     font-weight: 30px;
 }
 
+.description{
+    font-size: 20px;
+    font-weight: 7px;
+}
 
 .first-portion, .third-portion, .fourth-portion{
     display: flex;
-    margin: 30px 50px;
+    margin: 30px 40px;
     height: 600px;
 }
 
 .second-portion, .fifth-portion{
-    margin: 40px 50px 200px;
+    margin: 40px 40px 200px;
     height: 600px;
 }
 
@@ -87,10 +91,10 @@ footer h1{
 
 .card{
     height: 500px;
-    width: 30%;
-    margin-right: 20px;
+    width: 33%;
+    margin-right: 30px;
     margin-bottom: 30px;
-    padding:10px;
+    padding:30px;
     border-radius: 25px;
 }
 
@@ -165,7 +169,7 @@ footer h1{
 
 .second-cards, .fifth-cards{
     display: flex;
-    margin: 20px 50px;
+    margin: 20px 40px;
 }
 
 #mission-name{
@@ -190,6 +194,7 @@ footer h1{
     height: 60px;
     width: 400px;
     background-color:rgb(97, 104, 167);
+    margin-top: 25px;
     color: white;
     font-size: 20px;
     font-weight: 10px;
