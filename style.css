@@ -88,6 +88,31 @@ footer{
     background-size: 150px 300px;
 }
 
+.ecommerce{
+    background-color: rgb(208, 233, 243);
+    background-image: url(images/illustrators/vecteezy_online-shopping-on-phone-buy-sell-business-digital-web_4299835.jpg);
+    background-repeat: no-repeat;
+    background-position:top center;
+    background-size: 510px 250px;
+}
+
+.fintech{
+    background-color: rgb(205, 236, 146);
+    background-image: url(images/illustrators/vecteezy_modern-flat-design-isometric-background-of-blockchain-and_.jpg);
+    background-repeat: no-repeat;
+    background-position:top center;
+    background-size: 510px 250px;
+}
+
+.health{
+    background-color:pink;
+    background-image: url(images/illustrators/2215_R0lVIERBTiA1MDgtMjU.jpg);
+    background-repeat: no-repeat;
+    background-position:top center;
+    background-size: 510px 250px;
+}
+
+
 .card-contents{
     margin-top: 60%;
 }
@@ -96,7 +121,7 @@ footer{
     font-weight: 40px;
 }
 
-.second-cards{
+.second-cards, .fifth-cards{
     display: flex;
     margin: 20px 50px;
 }
