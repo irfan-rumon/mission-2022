@@ -15,7 +15,7 @@ p{
 
 .first-portion, .third-portion, .fourth-portion{
     display: flex;
-    margin: 40px 50px;
+    margin: 30px 50px;
     height: 600px;
 }
 
@@ -60,6 +60,10 @@ footer{
     text-align: center;
     margin-top: 50px;
     padding-top: 5px;
+}
+
+.left-border{
+   border-left: 5px solid rgb(141, 7, 112);
 }
 
 .card{
@@ -128,6 +132,7 @@ footer{
 #focus-prompt{
     font-size: 60px;
     font-weight: 40px;
+    margin-left: 20px;
 }
 
 .second-cards, .fifth-cards{
@@ -139,6 +144,7 @@ footer{
     color:aquamarine;
     font-size: 50px;
     font-weight: 30px;
+    margin-left: 20px;
 }
 
 #explore{
