@@ -50,6 +50,7 @@ img{
     width: 100%;
     height: 450px;
     float: left;
+    border-radius: 25px;
 }
 
 footer{
@@ -71,7 +72,8 @@ footer{
     width: 30%;
     margin-right: 20px;
     margin-bottom: 30px;
-    padding:10px
+    padding:10px;
+    border-radius: 25px;
 }
 
 .mission{
@@ -80,6 +82,7 @@ footer{
     background-repeat: no-repeat;
     background-position:top center;
     background-size: 510px 250px;
+    border-radius: 25px;
 }
 
 .vission{
@@ -88,6 +91,7 @@ footer{
     background-repeat: no-repeat;
     background-position:top center;
     background-size: 510px 250px;
+    border-radius: 25px;
 }
 
 
@@ -98,6 +102,7 @@ footer{
     background-repeat: no-repeat;
     background-position:top center;
     background-size: 510px 250px;
+    border-radius: 25px;
 }
 
 
@@ -107,6 +112,7 @@ footer{
     background-repeat: no-repeat;
     background-position:top center;
     background-size: 510px 250px;
+    border-radius: 25px;
 }
 
 .fintech{
@@ -115,6 +121,7 @@ footer{
     background-repeat: no-repeat;
     background-position:top center;
     background-size: 510px 250px;
+    border-radius: 25px;
 }
 
 .health{
@@ -123,6 +130,7 @@ footer{
     background-repeat: no-repeat;
     background-position:top center;
     background-size: 510px 250px;
+    border-radius: 25px;
 }
 
 
@@ -141,7 +149,7 @@ footer{
 }
 
 #mission-name{
-    color:aquamarine;
+    color:rgb(250, 4, 45);
     font-size: 50px;
     font-weight: 30px;
     margin-left: 20px;
@@ -150,21 +158,23 @@ footer{
 #explore{
     height: 60px;
     width: 250px;
-    background-color:rgb(214, 69, 32);
+    background-color:rgb(97, 104, 167);
     color: white;
     font-size: 20px;
     font-weight: 10px;
-    border-radius: 10px;
+    border:1px solid rgb(97, 104, 167);
+    border-radius: 15px;
 }
 
 .doc-passion, .doc-community{
     height: 60px;
     width: 400px;
-    background-color:rgb(214, 69, 32);
+    background-color:rgb(97, 104, 167);
     color: white;
     font-size: 20px;
     font-weight: 10px;
-    border-radius: 10px;
+    border:1px solid rgb(97, 104, 167);
+    border-radius: 15px;
 }
 
 #year{
@@ -180,4 +190,10 @@ footer{
 .general-heading{
     font-size: 40px;
     font-weight: 25px;
+}
+
+footer h1{
+    font-style: italic;
+    font-size: 50px;
+    font-weight: 30px;
 }
