@@ -1,4 +1,4 @@
-.body{
+body{
     margin: 0;
     padding: 0;
     font-family: 'Lato', sans-serif;
@@ -9,7 +9,41 @@
 
 p{
     font-size: 30px;
-    font-weight: 20px;
+    font-weight: 10px;
+}
+
+p small{
+    font-size: 20px;
+    font-weight: 5px;
+}
+
+img{
+    width: 100%;
+    height: 450px;
+    float: left;
+    border-radius: 25px;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: 25px;
+}
+
+
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 5px;
+}
+
+footer h1{
+    font-style:italic;
+    font-size: 50px;
+    font-weight: 30px;
 }
 
 
@@ -46,22 +80,6 @@ p{
     float: left;
 }
 
-img{
-    width: 100%;
-    height: 450px;
-    float: left;
-    border-radius: 25px;
-}
-
-footer{
-    width: 100%;
-    height: 200px;
-    background-color: black;
-    color: white;
-    text-align: center;
-    margin-top: 50px;
-    padding-top: 5px;
-}
 
 .left-border{
    border-left: 5px solid rgb(141, 7, 112);
@@ -137,6 +155,8 @@ footer{
 .card-contents{
     margin-top: 60%;
 }
+
+
 #focus-prompt{
     font-size: 60px;
     font-weight: 40px;
@@ -177,8 +197,8 @@ footer{
     border-radius: 15px;
 }
 
-#year{
-    color:rgba(114, 114, 4, 0.918);
+.year{
+    color:rgb(250, 4, 45);
 }
 
 #second-heading, #fifth-heading{
@@ -187,13 +207,15 @@ footer{
     font-weight: 30px;
 }
 
+#mission-name{
+    color:rgb(250, 4, 45);
+    font-size: 50px;
+    font-weight: 30px;
+    margin-left: 20px;
+}
+
 .general-heading{
     font-size: 40px;
     font-weight: 25px;
 }
 
-footer h1{
-    font-style: italic;
-    font-size: 50px;
-    font-weight: 30px;
-}
