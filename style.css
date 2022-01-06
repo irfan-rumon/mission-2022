@@ -13,13 +13,13 @@ p{
 }
 
 
-.first-portion, .third-portion, .fourth-portion, .fifth-portion{
+.first-portion, .third-portion, .fourth-portion{
     display: flex;
     margin: 40px 50px;
     height: 600px;
 }
 
-.second-portion{
+.second-portion, .fifth-portion{
     margin: 40px 50px 200px;
     height: 600px;
 }
@@ -130,7 +130,7 @@ footer{
     color:rgba(114, 114, 4, 0.918);
 }
 
-#second-heading{
+#second-heading, #fifth-heading{
     text-align: center;
     font-size: 50px;
     font-weight: 30px;
